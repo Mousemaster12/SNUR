@@ -1,0 +1,16 @@
+{
+  "simulate": false,
+  "sample_rate_hz": 8000,
+  "frame_size": 256,
+  "speed_of_sound_mps": 343.0,
+  "mic_positions": [[0.0, 0.0, 0.0], [0.2, 0.2, 0.0], [0.2, 0.0, 0.2], [0.0, 0.2, 0.2]],
+  "search_bounds": [-1.5, 1.5, -1.5, 1.5, 0.0, 3.0],
+  "search_step_m": 0.05,
+  "ui_bind_host": "0.0.0.0",
+  "ui_bind_port": 8080,
+  "debug": true,
+  "mic_freq_bands": [[3000, 3100], [3300, 3400], [3600, 3700], [3900, 4000]],
+  "mic_rms_calibration": [0.174, 0.193, 0.186, 0.196],
+  "noise_gate_threshold": 0.02,
+  "mic_gain": 1.0
+}
